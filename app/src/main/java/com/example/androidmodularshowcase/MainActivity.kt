@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MaterialTheme {
-                Greeting("沪少")
+                com.example.androidmodularshowcase.ui.AppRoot()
             }
         }
     }
