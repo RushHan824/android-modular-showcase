@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>FunctionNaming:AppRoot.kt$@Composable fun Center(text: String)</ID>
+    <ID>FunctionNaming:AppRoot.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun AppRoot()</ID>
+    <ID>FunctionNaming:FeedScreen.kt$@Composable fun FeedScreen(innerPadding: PaddingValues)</ID>
+    <ID>FunctionNaming:MainActivity.kt$@Composable fun Greeting(name: String)</ID>
+    <ID>FunctionNaming:ProfileScreen.kt$@Composable fun ProfileScreen(innerPadding: PaddingValues)</ID>
+    <ID>FunctionNaming:Theme.kt$@Composable fun AndroidModularShowcaseTheme( darkTheme: Boolean = isSystemInDarkTheme(), // Dynamic color is available on Android 12+ dynamicColor: Boolean = true, content: @Composable () -&gt; Unit, )</ID>
+    <ID>MagicNumber:Color.kt$0xFF625b71</ID>
+    <ID>MagicNumber:Color.kt$0xFF6650a4</ID>
+    <ID>MagicNumber:Color.kt$0xFF7D5260</ID>
+    <ID>MagicNumber:Color.kt$0xFFCCC2DC</ID>
+    <ID>MagicNumber:Color.kt$0xFFD0BCFF</ID>
+    <ID>MagicNumber:Color.kt$0xFFEFB8C8</ID>
+    <ID>MagicNumber:FeedScreen.kt$10</ID>
+    <ID>WildcardImport:AppRoot.kt$import androidx.compose.material3.*</ID>
+    <ID>WildcardImport:AppRoot.kt$import androidx.compose.runtime.*</ID>
+    <ID>WildcardImport:ExampleUnitTest.kt$import org.junit.Assert.*</ID>
+    <ID>WildcardImport:FeedScreen.kt$import androidx.compose.runtime.*</ID>
+  </CurrentIssues>
+</SmellBaseline>

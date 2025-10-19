@@ -1,0 +1,28 @@
+# config/detekt.yml
+build:
+    maxIssues: 0  # 使用基线后设为0
+
+config:
+    validation: true
+
+# 暂时禁用有问题的规则
+style:
+    active: true
+    MagicNumber:
+        active: false
+    WildcardImport:
+        active: false
+
+naming:
+    active: true
+    FunctionNaming:
+        active: false
+
+potential-bugs:
+    active: true
+
+complexity:
+    active: true
+
+coroutines:
+    active: true

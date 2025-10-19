@@ -24,11 +24,11 @@ fun AppRoot() {
                         selected = tab == i,
                         onClick = { tab = i },
                         icon = {},
-                        label = { Text(label) }
+                        label = { Text(label) },
                     )
                 }
             }
-        }
+        },
     ) { innerPadding ->
         when (tab) {
             0 -> FeedScreen(innerPadding)

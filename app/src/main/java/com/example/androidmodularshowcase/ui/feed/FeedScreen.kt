@@ -10,7 +10,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 
 @Composable
 fun FeedScreen(innerPadding: PaddingValues) {
@@ -21,13 +20,13 @@ fun FeedScreen(innerPadding: PaddingValues) {
     }
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
-        contentPadding = innerPadding
+        contentPadding = innerPadding,
     ) {
         items(items) { title ->
             Card {
                 ListItem(
                     headlineContent = { Text(title, style = MaterialTheme.typography.titleMedium) },
-                    supportingContent = { Text("副标题：描述/时间/作者等占位信息") }
+                    supportingContent = { Text("副标题：描述/时间/作者等占位信息") },
                 )
             }
         }
